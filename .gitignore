@@ -1,0 +1,35 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.rsuser
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+.nuget/
+
+# MAUI / Mobile
+*.apk
+*.aab
+*.ipa
+*.keystore
+*.jks
+*.dSYM
+
+# Node (se usar frontend junto)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+secrets.json
+appsettings.*.json
