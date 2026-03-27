@@ -3,11 +3,13 @@
     x:Class="App01NumeroDaSolrte.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="MainPage">
-    <VerticalStackLayout>
+    BackgroundColor="Blue">
+    <VerticalStackLayout Margin="30" BackgroundColor="Red">
         <!--  margin é margem no topo  -->
         <Label
             Margin="20"
+            Padding="10,20,30,40"
+            BackgroundColor="Green"
             HorizontalOptions="Center"
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" />
