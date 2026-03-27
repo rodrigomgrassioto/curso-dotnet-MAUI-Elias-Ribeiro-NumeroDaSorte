@@ -6,4 +6,11 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private void OnGenerateLuckNumbers(object sender, EventArgs e)
+	{
+		NameApp.IsVisible = !NameApp.IsVisible;
+		ContainerLuckNumber.IsVisible = !ContainerLuckNumber.IsVisible;
+
+    }
 }
