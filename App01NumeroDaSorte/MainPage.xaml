@@ -5,7 +5,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
     <ScrollView>
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <!--  HorizontalOptions gerou bug no video do professor em aparelho android  -->
+        <!-- <VerticalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"> -->
+        <VerticalStackLayout VerticalOptions="CenterAndExpand">
             <Image
                 HeightRequest="115"
                 Source="logo_green.png"
