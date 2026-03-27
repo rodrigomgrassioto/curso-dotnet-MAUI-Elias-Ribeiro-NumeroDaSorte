@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace App01NumeroDaSolrte
+namespace App01NumeroDaSorte
 {
     public class Program
     {

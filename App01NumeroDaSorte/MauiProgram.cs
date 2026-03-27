@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace App01NumeroDaSolrte
+namespace App01NumeroDaSorte
 {
     public static class MauiProgram
     {

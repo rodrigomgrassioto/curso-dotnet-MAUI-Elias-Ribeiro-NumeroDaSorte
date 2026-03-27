@@ -1,6 +1,6 @@
 ﻿//using Microsoft.Extensions.DependencyInjection;
 
-namespace App01NumeroDaSolrte
+namespace App01NumeroDaSorte
 {
     public partial class App : Application
     {
